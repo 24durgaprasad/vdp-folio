@@ -233,6 +233,10 @@ i{
     
 }
 
+.headings img{
+    display: none;
+}
+
 @media (max-width: 600px) {
     
     .section img{
@@ -248,7 +252,7 @@ i{
   }
 
   .card{
-    font-size: 4vw;
+    font-size: 8vw;
     position: relative;
     padding-left: 16vw;
   }
@@ -268,7 +272,7 @@ i{
   }
 
   .left .lay1{
-    width: 27vw;
+    width: 85vw;
 
   }
 
@@ -277,4 +281,46 @@ i{
     font-size: 5vw;
         padding: 2vw;
   }
+
+  nav{
+    display: none;
+  }
+
+  .section img{
+    display: none;
+  }
+
+  .section p{
+    font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 15%;
+  position: relative;
+  }
+
+  .section{
+    width: 100%;
+    padding: 2vw 2vw;
+  }
+
+  .layers i{
+ display: none;
+  }
+ .layers .lay1{
+    background-color:transparent;
+    height: 7vh;
+ }
+
+ .layers{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .headings img{
+    display: block;
+    width: 200%;
+    height: 200%;
+    margin: 10vw -48%;
+}
 }
