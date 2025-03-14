@@ -232,3 +232,49 @@ i{
     font-weight: 400;
     
 }
+
+@media (max-width: 600px) {
+    
+    .section img{
+       height: 54%; 
+  }
+
+  .section p{
+    position: relative;
+    padding-right: 20vw;
+
+    font-size: 5vw;
+
+  }
+
+  .card{
+    font-size: 4vw;
+    position: relative;
+    padding-left: 16vw;
+  }
+
+  .right{
+    display: flex;
+    display: none;
+  }
+
+  .left h1{
+    display: none;
+  }
+
+  .left .layers{
+    padding: 73px 0%;
+    width: 200%;
+  }
+
+  .left .lay1{
+    width: 27vw;
+
+  }
+
+  .lay1 i{
+    font-size: 3vw;
+    font-size: 5vw;
+        padding: 2vw;
+  }
+}
